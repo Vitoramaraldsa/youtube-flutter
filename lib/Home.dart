@@ -44,7 +44,10 @@ class _HomeState extends State<Home> {
               icon: Icon(Icons.account_circle))
         ],
       ) ,
-      body: telas[_indiceAtual],
+      body: Container(
+        padding: EdgeInsets.all(16),
+        child: telas[_indiceAtual],
+      ),
       bottomNavigationBar: BottomNavigationBar(
 
         //cor fixada, shifting para criar o efeito de mudança de cores.
