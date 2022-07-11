@@ -12,8 +12,7 @@ class _InscricaoState extends State<Inscricao> {
   Widget build(BuildContext context) {
     return Container(
         child: Center(
-          child: Text("Inscricao", style: TextStyle(fontSize: 25)),
-        )
-    );
+      child: Text("Inscricao", style: TextStyle(fontSize: 25)),
+    ));
   }
 }
